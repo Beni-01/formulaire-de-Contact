@@ -1,0 +1,1 @@
+checkIfFileUploadedIsImg(inputValue:String):boolean

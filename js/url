@@ -1,0 +1,7 @@
+fichier.addEventListener('change', function(){
+                if(this.files[0]){
+                    let image = document.querySelector('#image');
+                    image.src = URL.createObjectURL(this.files[0]);
+                    imageSend = image.src;
+                }
+            });
